@@ -119,12 +119,15 @@ transition: 0.2s ease;
   
   }
   #compani{
-    grid-template-columns: repeat(4,1fr);
+ display: flex;
     gap: 20px;
-    justify-items: center;
-    align-items: center;
-    text-align: center;
+    flex-wrap: wrap;
   
+  
+  
+  }
+  #compani img{
+text-align: center;
   }
 
  }
