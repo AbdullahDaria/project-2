@@ -117,4 +117,12 @@ transition: 0.2s ease;
   }
 
  }
+ @media screen and (max-width:476px) {
+.manu a{
+  font-size: 15px;
+}
+.logo h1{
+  font-size: 2rem;
+}
+ }
 
