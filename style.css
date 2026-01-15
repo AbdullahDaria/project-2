@@ -27,6 +27,54 @@
  .manu a:hover{
   color: red;
  }
+ main{
+  display: flex;
+  align-items: center;
+  margin-top: 4rem;
+  border-bottom:1px solid;
+  border-radius: 20px;
+ }
+ .maincon{
+  width: 660px;
+ }
+ .maincon h1{
+  font-size: 4rem;
+ }
+ .maincon p{
+  font-weight: 300;
+ }
+ .maincon button{
+  padding: 10px 25px;
+  font-size: 15px;
+  background-color: brown;
+  color: white;
+  border: none;
+  border-radius:10px;
+  margin-top: 10px;
+  cursor: pointer;
+  border: 2px solid ;
+   transition: 0.2s ease;
+ }
+
+
+ .maincon button:hover{
+  color: black;
+  background-color: white;
+  border: 2px solid;
+    }
+ .mainimg{
+  width: 475px;
+  height: 475px;
+  background-image: url(images/Circle\ design.svg);
+  align-items: center;
+  display: flex;
+ }
+ .mainimg img{
+transition: 0.2s ease;
+ }
+ .mainimg img:hover{
+  transform: scale(1.1);
+ }
 
 
 
@@ -46,6 +94,26 @@
   }
   .manu ul {
     gap: 20px;
+  }
+  main{
+    flex-wrap: wrap-reverse;
+   text-align: center;
+   gap: 3rem;
+  }
+  .maincon h1{
+    font-size: 30px;
+  }
+  .maincon p{
+    flex-wrap: wrap;
+  }
+    .mainimg{
+      width: 90%;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+  .mainimg img{
+    width: 100%;
+  
   }
 
  }
